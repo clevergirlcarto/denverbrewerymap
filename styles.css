@@ -1,0 +1,48 @@
+.filter-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    max-width: 125px;
+    background-color: rgb(70, 70, 70);
+    left: 5px; 
+    top: 5px; 
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.title {
+    color: white; 
+    font-size: 22px; 
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.filter-button {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(95, 94, 94);
+    height: 50px;
+    width: 80px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.filter-button:hover { 
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 2px rgb(13, 221, 13);
+}
+
+#map {
+    height: 100vh;
+    width: 100vw;
+}
+
+.selected{
+    background-color: green;
+}
